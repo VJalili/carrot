@@ -1,0 +1,155 @@
+{
+	"95303ac3-bf9d-44dd-b1df-0a03e7440f9e": {
+		"created_at": "jvahid@broadinstitute.org",
+		"created_by": "jvahid@broadinstitute.org",
+		"description": "2022-06-29T18:08:46.394369",
+		"errors": null,
+		"eval_cromwell_job_id": "8738a541-8426-49a5-9470-5f1f8993427e",
+		"eval_input": {
+			"EvalCaseControlLocus.docker_image": "python:3.7-slim",
+			"EvalCaseControlLocus.multisample_profile": "test_output:EHdnSTRAnalysis.multisample_profile",
+			"EvalCaseControlLocus.multisample_profile_expected": "gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/example_dataset.multisample_profile.json"
+		},
+		"eval_options": null,
+		"finished_at": "2022-06-29T18:10:56.123",
+		"name": "gatk-sv_1656526126",
+		"results": {
+			"EHdnSTRAnalysis.multisample_profile_1656526122": "gs://dsde-methods-carrot-prod-cromwell/EHdnSTRAnalysis/0f27db2e-12e1-405d-bc9c-37650f5757e1/call-STRAnalyze/cacheCopy/merged.multisample_profile.json",
+			"EvalCaseControlLocus.data_file_1656526122": "gs://dsde-methods-carrot-prod-cromwell/EvalCaseControlLocus/8738a541-8426-49a5-9470-5f1f8993427e/call-RunEHdn/cacheCopy/stdout"
+		},
+		"run_dir": "/Users/jvahid/code/gatk_sv/carrot/ExpansionHunterDenovo/casecontrol/simulated_data",
+		"status": "succeeded",
+		"test_cromwell_job_id": "0f27db2e-12e1-405d-bc9c-37650f5757e1",
+		"test_id": "91f62027-c05d-4bfd-a0ed-dde76011ea01",
+		"test_input": {
+			"EHdnSTRAnalysis.analysis_type": "casecontrol",
+			"EHdnSTRAnalysis.ehdn_docker": "vjalili/ehdn:01",
+			"EHdnSTRAnalysis.max_irr_mapq": 40,
+			"EHdnSTRAnalysis.min_anchor_mapq": 50,
+			"EHdnSTRAnalysis.reference_fasta": "gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/reference.fasta",
+			"EHdnSTRAnalysis.sample_bams_or_crams": [
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample1.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample2.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample3.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample4.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample5.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample6.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample7.bam"
+			],
+			"EHdnSTRAnalysis.samples_status": [
+				"case",
+				"case",
+				"case",
+				"control",
+				"control",
+				"control",
+				"control"
+			],
+			"EHdnSTRAnalysis.str_comparison_type": "locus"
+		},
+		"test_options": null,
+		"uuid": "95303ac3-bf9d-44dd-b1df-0a03e7440f9e"
+	},
+	"bbba23db-10ff-4432-a8c9-be2863bbb04f": {
+		"created_at": "2022-06-29T17:58:05.331836",
+		"created_by": "jvahid@broadinstitute.org",
+		"description": "2022-06-29T17:58:05.331836",
+		"errors": null,
+		"eval_cromwell_job_id": "975df443-c235-43af-bb89-b4b765bd0707",
+		"eval_input": {
+			"EvalCaseControlLocus.docker_image": "python:3.7-slim",
+			"EvalCaseControlLocus.multisample_profile": "test_output:EHdnSTRAnalysis.multisample_profile",
+			"EvalCaseControlLocus.multisample_profile_expected": "gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/example_dataset.multisample_profile.json"
+		},
+		"eval_options": null,
+		"finished_at": "2022-06-29T18:00:56.521",
+		"name": "gatk-sv_1656525485",
+		"results": {
+			"EHdnSTRAnalysis.multisample_profile_1656525483": "gs://dsde-methods-carrot-prod-cromwell/EHdnSTRAnalysis/49269c37-f259-4f4d-968c-193d99ee9e0e/call-STRAnalyze/cacheCopy/merged.multisample_profile.json",
+			"EvalCaseControlLocus.data_file_1656525484": "gs://dsde-methods-carrot-prod-cromwell/EvalCaseControlLocus/975df443-c235-43af-bb89-b4b765bd0707/call-RunEHdn/cacheCopy/stdout"
+		},
+		"run_dir": "/Users/jvahid/code/gatk_sv/carrot/ExpansionHunterDenovo/casecontrol/simulated_data",
+		"status": "succeeded",
+		"test_cromwell_job_id": "49269c37-f259-4f4d-968c-193d99ee9e0e",
+		"test_id": "97dd4ddf-0519-4cfe-bbc5-b9c60a87fc39",
+		"test_input": {
+			"EHdnSTRAnalysis.analysis_type": "casecontrol",
+			"EHdnSTRAnalysis.ehdn_docker": "vjalili/ehdn:01",
+			"EHdnSTRAnalysis.max_irr_mapq": 40,
+			"EHdnSTRAnalysis.min_anchor_mapq": 50,
+			"EHdnSTRAnalysis.reference_fasta": "gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/reference.fasta",
+			"EHdnSTRAnalysis.sample_bams_or_crams": [
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample1.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample2.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample3.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample4.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample5.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample6.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample7.bam"
+			],
+			"EHdnSTRAnalysis.samples_status": [
+				"case",
+				"case",
+				"case",
+				"control",
+				"control",
+				"control",
+				"control"
+			],
+			"EHdnSTRAnalysis.str_comparison_type": "locus"
+		},
+		"test_options": null,
+		"uuid": "bbba23db-10ff-4432-a8c9-be2863bbb04f"
+	},
+	"defcaa74-18ee-4d63-ae27-60d1fd078caf": {
+		"created_at": "jvahid@broadinstitute.org",
+		"created_by": "jvahid@broadinstitute.org",
+		"description": "2022-06-29T18:07:22.541164",
+		"errors": null,
+		"eval_cromwell_job_id": "30bd1d96-b2e0-4f61-9cd5-68735017009b",
+		"eval_input": {
+			"EvalCaseControlLocus.docker_image": "python:3.7-slim",
+			"EvalCaseControlLocus.multisample_profile": "test_output:EHdnSTRAnalysis.multisample_profile",
+			"EvalCaseControlLocus.multisample_profile_expected": "gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/example_dataset.multisample_profile.json"
+		},
+		"eval_options": null,
+		"finished_at": "2022-06-29T18:10:56.123",
+		"name": "gatk-sv_1656526042",
+		"results": {
+			"EHdnSTRAnalysis.multisample_profile_1656526041": "gs://dsde-methods-carrot-prod-cromwell/EHdnSTRAnalysis/b2dada68-5905-4106-bb99-5d1f3a3493cf/call-STRAnalyze/cacheCopy/merged.multisample_profile.json",
+			"EvalCaseControlLocus.data_file_1656526041": "gs://dsde-methods-carrot-prod-cromwell/EvalCaseControlLocus/30bd1d96-b2e0-4f61-9cd5-68735017009b/call-RunEHdn/cacheCopy/stdout"
+		},
+		"run_dir": "/Users/jvahid/code/gatk_sv/carrot/ExpansionHunterDenovo/casecontrol/simulated_data",
+		"status": "succeeded",
+		"test_cromwell_job_id": "b2dada68-5905-4106-bb99-5d1f3a3493cf",
+		"test_id": "be9ed867-ed9d-490e-a76c-c95a59110b77",
+		"test_input": {
+			"EHdnSTRAnalysis.analysis_type": "casecontrol",
+			"EHdnSTRAnalysis.ehdn_docker": "vjalili/ehdn:01",
+			"EHdnSTRAnalysis.max_irr_mapq": 40,
+			"EHdnSTRAnalysis.min_anchor_mapq": 50,
+			"EHdnSTRAnalysis.reference_fasta": "gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/reference.fasta",
+			"EHdnSTRAnalysis.sample_bams_or_crams": [
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample1.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample2.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample3.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample4.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample5.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample6.bam",
+				"gs://broad-dsde-methods-vj/ehdn_unit_test_data/case-control/bamlets/sample7.bam"
+			],
+			"EHdnSTRAnalysis.samples_status": [
+				"case",
+				"case",
+				"case",
+				"control",
+				"control",
+				"control",
+				"control"
+			],
+			"EHdnSTRAnalysis.str_comparison_type": "locus"
+		},
+		"test_options": null,
+		"uuid": "defcaa74-18ee-4d63-ae27-60d1fd078caf"
+	}
+}

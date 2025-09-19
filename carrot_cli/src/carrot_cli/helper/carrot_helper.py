@@ -25,8 +25,8 @@ WDLS_DIR = "wdl"
 WDLS_TEST_DIR = "carrot"
 
 # TEMP, should be replaced with a better interface.
-WDLS_LOCAL_DIR = ""
-TEST_WDLS_LOCAL_DIR = ""
+WDLS_LOCAL_DIR = "/Users/jvahid/code/gatk_sv/wdl"
+TEST_WDLS_LOCAL_DIR = "/Users/jvahid/code/gatk_sv/carrot/"
 
 DEFAULT_EVAL_INPUTS_FILENAME = "eval_input_defaults.json"
 DEFAULT_TEST_INPUTS_FILENAME = "test_input_defaults.json"

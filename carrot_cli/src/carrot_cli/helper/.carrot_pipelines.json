@@ -1,0 +1,67 @@
+{
+	"ExpansionHunterDenovo": {
+		"created_at": "2022-06-29T18:08:35.149729",
+		"created_by": "jvahid@broadinstitute.org",
+		"description": null,
+		"name": "gatk-sv_1656526114",
+		"templates": {
+			"casecontrol": {
+				"created_at": "2022-06-29T18:08:42.653777",
+				"created_by": "jvahid@broadinstitute.org",
+				"description": null,
+				"eval_wdl": "gs://dsp-methods-carrot-data/wdl-prod/4c9953c1-73cf-467c-8f89-689f9212ded0/eval.wdl",
+				"eval_wdl_checksum": "9f483b418c4f307e78056b87b59e5fa5060d16ca79f88a16b4e393a4a24059f9",
+				"eval_wdl_dependencies": null,
+				"name": "gatk-sv_1656526117",
+				"pipeline_id": "847df477-b41c-4c7e-9867-757fd2bd18e2",
+				"results": [
+					{
+						"created_at": "2022-06-29T18:08:42.969688",
+						"created_by": "jvahid@broadinstitute.org",
+						"description": null,
+						"name": "EHdnSTRAnalysis.multisample_profile_1656526122",
+						"result_type": "file",
+						"uuid": "6df27f51-db1d-4fb2-8506-0f2c20c5a149",
+						"var_name": "EHdnSTRAnalysis.multisample_profile"
+					},
+					{
+						"created_at": "2022-06-29T18:08:45.200223",
+						"created_by": "jvahid@broadinstitute.org",
+						"description": null,
+						"name": "EvalCaseControlLocus.data_file_1656526122",
+						"result_type": "file",
+						"uuid": "a721e78e-6acc-4811-8905-57738bf7e49d",
+						"var_name": "EvalCaseControlLocus.data_file"
+					}
+				],
+				"runs_dirs": [
+					"simulated_data"
+				],
+				"test": {
+					"created_at": "2022-06-29T18:08:46.176721",
+					"created_by": "jvahid@broadinstitute.org",
+					"description": null,
+					"eval_input_defaults": {
+						"EvalCaseControlLocus.docker_image": "python:3.7-slim"
+					},
+					"eval_input_defaults_checksum": "8b704106832ae00cd6744893be3d89189dfc48d725fd2021e4a5c1cafb6468ea",
+					"eval_option_defaults": null,
+					"name": "gatk-sv_1656526125",
+					"template_id": "7c6d6102-0043-40ea-ab13-eb01d0e89747",
+					"template_path": "/Users/jvahid/code/gatk_sv/carrot/ExpansionHunterDenovo/casecontrol",
+					"test_input_defaults": {
+						"EHdnSTRAnalysis.ehdn_docker": "vjalili/ehdn:01"
+					},
+					"test_input_defaults_checksum": "4ec50b08ed9684c3e57bda8f27f79a57740d61d0524e4911644607a3d10fcf96",
+					"test_option_defaults": null,
+					"uuid": "91f62027-c05d-4bfd-a0ed-dde76011ea01"
+				},
+				"test_wdl": "gs://dsp-methods-carrot-data/wdl-prod/0ca0533c-3af6-4816-841d-90321f80f64f/test.wdl",
+				"test_wdl_checksum": "22ee4dee764749a7d466ada9adca137dbf3e7f1fb2de7357905f6c71af2d7e67",
+				"test_wdl_dependencies": null,
+				"uuid": "7c6d6102-0043-40ea-ab13-eb01d0e89747"
+			}
+		},
+		"uuid": "847df477-b41c-4c7e-9867-757fd2bd18e2"
+	}
+}
